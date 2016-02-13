@@ -1,21 +1,57 @@
 <!doctype html>
 
 <html>
+
   <head>
     <meta charset="UTF-8">
     <title>Claudia Rangel Joias</title>
     <link href="css/main.css" rel="stylesheet" />
+    <link href="css/menu.css" rel="stylesheet" />
+    <link href="/dependencies/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="dependencies/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="dependencies/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
   </head>
+
   <body>
-    <div class="main-logo-video-container">
-      <img id="main-logo-video" src="img/logo/logo_claudia_rangel.png">
-    </div>
-    <div class="black-filter-bg">
-    </div>
+
+  <!--  Menu -->
+  <div id="menu">
+		<a href="#">SOBRE</a>
+		<a href="#">JOIAS</a>
+		<a href="#">LOOKBOOK</a>
+		<a href="#">NEWS</a>
+		<a href="#">ALIANÇAS</a>
+		<a href="#">CONTATOS</a>
+	</div>
+
+  <div id="page-content">
     <div class="fullscreen-bg">
       <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg_video">
         <source src="video/ex_jewelry.mp4" type="video/mp4">
-        </video>
+      </video>
+
+      <div id="main-logo-video-container">
+        <img src="img/logo/logo_claudia_rangel.png">
+      </div>
+
+      <div class="black-filter-bg"></div>
     </div>
+
+    <div id="content">
+        <div id="empty-content"></div>
+        <p>Texto aqui</p>
+        <br>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <p>Texto la</p>
+    </div>
+  </div>
+
+  <script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
+
+  <script>window.jQuery || document.write ('<script src="js/jquery-2.2.0.js"> <\/script>');</script>
+
+  <script src="js/script.js"></script>
+
   </body>
 </html>
