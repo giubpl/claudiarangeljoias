@@ -6,9 +6,9 @@
   top: 0;
   width: 100%;
   color: #ffffff;
-  height: 35px;
+  height: 40px;
   text-align: right;
-  line-height: 35px;
+  line-height: 40px;
   background-color: rgba(1, 1, 1, 0.3);
   color: rgba(1, 1, 1, 0.8);
   z-index: 1;
@@ -17,9 +17,9 @@
 #menu a {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-	font-size: 14px;
-	padding-left: 15px;
-	padding-right: 15px;
+	font-size: 13px;
+	padding-left: 20px;
+	padding-right: 20px;
 	color: white;
 	text-decoration: none;
 }

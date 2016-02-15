@@ -27,25 +27,15 @@
   left: 0px;
   right: 0px;
   background-color: #000;
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 .fullscreen-bg {
   position: relative;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
   overflow: hidden;
 }
 
 .fullscreen-bg_video {
   width: 100%;
   height: auto;
-}
-
-#content {
-  top: 100%;
-  right: 0px;
-  left: 0px;
 }
