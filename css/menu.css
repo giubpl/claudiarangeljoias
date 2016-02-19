@@ -27,3 +27,11 @@
 #menu a:hover {
 	color: #999999;
 }
+
+#logo-menu {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 20px;
+  height: auto;
+  float: left;
+}

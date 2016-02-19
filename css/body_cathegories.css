@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#jewel-category-container {
+  margin-top: 70px;
+  margin-left: 100px;
+
+}
+
+.categories-main-title {
+  font-size: 40px;
+  font-family: "Open Sans",sans-serif;
+  letter-spacing: 8px;
+  color:#333;
+  font-weight: 600;
+}
+
+.other-color-title {
+  color: #6b8470;
+}
+
+.container-categories-main-title {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.img-cathegories-container {
+    margin: 8px;
+    float: left;
+    width: 330px;
+    height: 220px;
+}
+
+.img-cathegories-container:hover{
+  background-color: #eee;
+}
+
+.img-cathegories {
+  width: 120px;
+  height: auto;
+  margin-left: 110px;
+  margin-top: 20px;
+}
+
+.categorie-name {
+  font-family: "Open Sans",sans-serif;
+  letter-spacing: 3px;
+  color:#333;
+  font-weight: 200;
+  text-align: center;
+  margin-top: 20px
+}
